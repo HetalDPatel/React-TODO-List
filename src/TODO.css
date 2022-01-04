@@ -1,0 +1,107 @@
+.todoPage {
+    border: 1px solid black;
+
+}
+table {
+    font-family: 'Ink Free';
+    font-weight: bold;
+    font-size:16pt;
+}
+th {
+    border: 1px solid black;
+    background-color: lightblue;
+    
+}
+td {
+    text-align: center;
+    font-size: 12pt;
+}
+.todoTable {
+    display: flex;
+    justify-content: center;
+}
+
+.listIdColumn {
+    width: 100px;
+    
+}
+.actionColumn {
+    width: 100px;
+/*    align-items: center;
+    display: flex;
+    justify-content: center;*/
+}
+
+.actionButton {
+    margin-right: 5px;
+    
+}
+.itemColumn {
+    width: 200px;
+    height: auto;
+   
+}
+.addItemForm {
+
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    padding:20px;
+}
+label{
+    font-weight:bold;
+    margin-right:10px;
+    padding:3px;
+}
+input[type=text] {
+    width: 300px;
+    margin-right: 20px;
+    height: 25px;
+
+}
+
+ input[type=text]:focus {
+        width: 300px;
+        margin-right: 20px;
+        height: 25px;
+        background-color: lightblue;
+    }
+.addButton {
+    width: 80px;
+    height:25px;
+    font-size:12pt;
+    font-weight:bold;
+}
+    .addButton:hover {
+        width: 80px;
+        height: 25px;
+        font-size: 12pt;
+        font-weight: bold;
+        background-color: rgb(204 213 32);
+        border:0.5px solid black;
+    }
+/*td input[type=text] {
+    width: 300px;
+    margin-right: 20px;
+    height: 25px;
+    border: none;
+    cursor:pointer;
+    
+}*/
+.editTextBox input[type=text] {
+    width: 300px;
+    margin-right: 20px;
+    height: 25px;
+    background-color: rgb(204 213 32);
+}
+
+img{
+    width:15px;
+    height:15px;  
+}
+
+.pageTitle {
+    font-size: 20pt;
+    font-family:'Ink Free';
+
+}

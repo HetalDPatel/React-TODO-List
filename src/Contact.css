@@ -1,0 +1,13 @@
+.contact_image {
+    display: flex;
+    justify-content: center;
+}
+
+.cImage {
+    width: 400px;
+    height: 400px;
+}
+.contactButton {
+    display: flex;
+    justify-content: center;
+}
